@@ -6,8 +6,6 @@ import { Component } from '@angular/core';
   styleUrl: './formulaire.component.css'
 })
 export class FormulaireComponent {
-keyword: string= '';
 password: string= ''
-
 
 }

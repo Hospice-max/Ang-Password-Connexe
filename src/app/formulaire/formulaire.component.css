@@ -8,20 +8,19 @@
     border-radius: 5px;
     margin-top: 5rem;
 }
+input.ng-invalid {
+    background-color:pink;
+}
+input.ng-valid {
+    background-color:lightgreen;
+}
 .back {
     background-color: white;
     padding: 20px;
     border-radius: 10px;
     margin-bottom: 1rem;
 }
-h1 {
-    font-size: 20px;
-}
-p{
-    color: rgb(219, 105, 11);
-    font-size: 15px;
-    font-weight: 600;
-}
+
 .text {
     padding: 15px;
     margin-top: 8rem;
