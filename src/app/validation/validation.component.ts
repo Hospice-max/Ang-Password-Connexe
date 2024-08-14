@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-validation',
@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrl: './validation.component.css'
 })
 export class ValidationComponent {
-
+// @Input() keyword?: pass
 }
