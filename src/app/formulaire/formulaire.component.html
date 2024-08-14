@@ -1,0 +1,26 @@
+<div class="greatDiv">
+    <div class="back">
+        <form>
+            <div class="mb-3">
+                <label class="text" for="email"  class="form-label">Utilsateur</label>
+                <input type="name" class="form-control" [(ngModel)]="keyword" placeholder="User1" name="name" id="name" required>
+            </div>
+            <div class="mb-3">
+                <label for="password" class="form-label">Mot de passe</label>
+                <input type="password" [(ngModel)]="password" class="form-control" name="password" id="password" required>
+            </div>
+            <button type="submit" class="btn btn-primary w-100">Envoyer</button>
+        </form>
+        <p>{{ keyword }}</p>
+        <p>{{ password }}</p>
+    </div>
+
+
+    <div class="back">
+        <h1>Le mot de passe doit contenir les éléments suivants</h1>
+        <p>❌ Une lettre minuscule</p>
+        <p>❌ Une lettre majuscule</p>
+        <p>❌ Un chiffre</p>
+        <p>❌ 8 caractère minimum</p>
+    </div>
+</div>

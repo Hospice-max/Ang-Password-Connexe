@@ -1,0 +1,36 @@
+.greatDiv {
+    background-color: rgb(103, 102, 255);
+    max-width: 100%;
+    width: 50%;
+    margin-left: 25%;
+    padding: 50px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-top: 5rem;
+}
+.back {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+h1 {
+    font-size: 20px;
+}
+p{
+    color: rgb(219, 105, 11);
+    font-size: 15px;
+    font-weight: 600;
+}
+.text {
+    padding: 15px;
+    margin-top: 8rem;
+}
+label{
+    color: black;
+}
+button {
+    background-color: rgb(103, 102, 255);
+    border-color: black;
+    color: white;
+}
